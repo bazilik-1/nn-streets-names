@@ -1,0 +1,104 @@
+/* Items */
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: black;
+    color:rgb(0, 22, 50);
+}
+
+button{
+    background-color: rgb(0, 22, 50);
+    color:rgb(233, 238, 130);
+    border-color:rgb(220, 170, 20);
+}
+
+.light-mode button{
+    background-color: rgb(255, 187, 84);
+    color:rgb(39, 0, 50);
+    border-color:rgba(82, 0, 100, 0);
+}
+
+/* Classes */
+.bar-n-map{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: start;
+}
+.leaflet-container {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    max-height: 100%;
+}
+.bar{
+    width: 10vw;
+    height: 100vh;
+}
+.centerContent{
+    display: flex;
+    justify-content: center;
+}
+
+.light-mode{
+    background-color: white;
+    color: black;
+}
+
+.info {
+    /*left: 1px;*/
+    float: left;
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h3 {
+    margin: 0 0 5px;
+    color: #777;
+}
+
+.info h4 {
+    text-wrap: wrap;
+    width: 20vw;
+    margin: 0;
+    font-weight: normal;
+}
+
+/* IDs */
+
+#map{
+    background-color: black;
+}
+
+.legend {
+    line-height: 18px;
+    color: rgb(0, 22, 50);
+}
+
+.legend h3 {
+    color: rgb(0, 22, 50);
+    margin-bottom: 10px;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+.fancyText{
+    color:red;
+}
+
+.ordinaryText{
+    color:rgb(0, 22, 50);
+}
+
+.legendText{
+    color:rgb(0, 22, 50);
+    margin-bottom: 5px;
+}
